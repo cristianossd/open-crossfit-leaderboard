@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - '8'
+cache: yarn
+script:
+  - yarn run test
+  - yarn build
+deploy:
+  provider: script
+  skip-cleanup: true
+  github-token: -SXDsJYfrj8hMc5Kc4earA
+  keep-history: true
+  script:
+    - yarn run predeploy
+    - yarn run deploy
+  on:
+    branch: master
