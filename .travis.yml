@@ -8,8 +8,6 @@ script:
 deploy:
   provider: script
   skip-cleanup: true
-  github-token: -SXDsJYfrj8hMc5Kc4earA
-  keep-history: true
   script:
     - yarn run predeploy
     - yarn run deploy
