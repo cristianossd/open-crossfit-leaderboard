@@ -6,10 +6,8 @@ script:
   - yarn run test
   - yarn build
 deploy:
-  provider: script
+  provider: pages
   skip-cleanup: true
-  script:
-    - yarn run predeploy
-    - yarn run deploy
-  on:
-    branch: master
+  github-token: $GITHUB_API_KEY
+  keep-history: true
+  local-dir: build
