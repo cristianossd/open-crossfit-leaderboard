@@ -28,8 +28,10 @@ class LeaderboardTable extends Component {
     const { category, filterText } = nextProps;
 
     if (category !== this.props.category) {
-      this.setState({ athletes: [] });
-      this.fetchAPI(categoryDict[category]);
+      this.setState({ athletes: [] }, () => {
+        this.filterLeaderboard('');
+        this.fetchAPI(categoryDict[category]);
+      });
     }
 
     this.filterLeaderboard(filterText);
