@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LeaderboardTable /> render correctly 1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-striped"
+    id="leaderboardTable"
+  >
+    <thead
+      className="thead-dark"
+    >
+      <tr>
+        <th
+          scope="col"
+        >
+          Atletas
+        </th>
+        <th
+          scope="col"
+        >
+          18.1
+        </th>
+        <th
+          scope="col"
+        >
+          18.2
+        </th>
+        <th
+          scope="col"
+        >
+          18.2a
+        </th>
+        <th
+          scope="col"
+        >
+          18.3
+        </th>
+        <th
+          scope="col"
+        >
+          18.4
+        </th>
+        <th
+          scope="col"
+        >
+          18.5
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      id="leaderboardBody"
+    />
+  </table>
+  <Spinner />
+</div>
+`;

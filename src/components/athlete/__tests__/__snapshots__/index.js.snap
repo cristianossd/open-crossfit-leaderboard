@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Athlete /> render correctly 1`] = `
+<tr
+  className="Athlete--lg"
+  key="1"
+>
+  <th
+    scope="row"
+  >
+    1
+  </th>
+  <td>
+    <strong>
+      competitor mock
+    </strong>
+    <br />
+    <small>
+      affiliate mock
+    </small>
+  </td>
+  <td>
+    <strong>
+      1
+    </strong>
+  </td>
+  <td
+    key="0"
+  >
+    <strong>
+      1st
+    </strong>
+    <br />
+    <small>
+      (
+      299 reps
+      )
+    </small>
+  </td>
+  <td
+    key="1"
+  >
+    <strong>
+      2nd
+    </strong>
+    <br />
+    <small>
+      (
+      06:32
+      )
+    </small>
+  </td>
+  <td
+    key="2"
+  >
+    <strong>
+      3rd
+    </strong>
+    <br />
+    <small>
+      (
+      95 reps
+      )
+    </small>
+  </td>
+  <td
+    key="3"
+  >
+    <strong>
+      4th
+    </strong>
+    <br />
+    <small>
+      (
+      100 reps
+      )
+    </small>
+  </td>
+  <td
+    key="4"
+  >
+    <strong>
+      5th
+    </strong>
+    <br />
+    <small>
+      (
+      15:10
+      )
+    </small>
+  </td>
+</tr>
+`;
+
+exports[`<Athlete /> render in medium screens 1`] = `
+<tr
+  className="Athlete--md"
+  key="1"
+>
+  <td>
+    <h6>
+      <strong>
+        1
+         (
+        1
+        )
+         
+        competitor mock
+      </strong>
+      <br />
+         
+      <small>
+        affiliate mock
+      </small>
+    </h6>
+  </td>
+  <td
+    key="0"
+  >
+    <strong>
+      1st
+    </strong>
+    <br />
+    <small>
+      (
+      299 reps
+      )
+    </small>
+  </td>
+  <td
+    key="1"
+  >
+    <strong>
+      2nd
+    </strong>
+    <br />
+    <small>
+      (
+      06:32
+      )
+    </small>
+  </td>
+  <td
+    key="2"
+  >
+    <strong>
+      3rd
+    </strong>
+    <br />
+    <small>
+      (
+      95 reps
+      )
+    </small>
+  </td>
+  <td
+    key="3"
+  >
+    <strong>
+      4th
+    </strong>
+    <br />
+    <small>
+      (
+      100 reps
+      )
+    </small>
+  </td>
+  <td
+    key="4"
+  >
+    <strong>
+      5th
+    </strong>
+    <br />
+    <small>
+      (
+      15:10
+      )
+    </small>
+  </td>
+</tr>
+`;
+
+exports[`<Athlete /> render in small screens 1`] = `
+<tr
+  className="Athlete--sm"
+  key="1"
+>
+  <td>
+    <Accordion
+      accordion={false}
+      className="accordion"
+      onChange={[Function]}
+    >
+      <inject-AccordionItem-with-accordionStore>
+        <inject-AccordionItemTitle-with-accordionStore-uuid>
+          <h6
+            className="u-position-relative"
+          >
+            <strong>
+              1
+               (
+              1
+              )
+              competitor mock
+            </strong>
+            <br />
+                 
+            <small>
+              affiliate mock
+            </small>
+            <div
+              className="accordion__arrow"
+              role="presentation"
+            />
+          </h6>
+        </inject-AccordionItemTitle-with-accordionStore-uuid>
+        <inject-AccordionItemBody-with-accordionStore-uuid>
+          <ul>
+            <li
+              key="18.1:"
+            >
+              <strong>
+                 
+                18.1:
+              </strong>
+               
+              1st
+               (
+              299 reps
+              )
+            </li>
+            <li
+              key="18.2:"
+            >
+              <strong>
+                 
+                18.2:
+              </strong>
+               
+              2nd
+               (
+              06:32
+              )
+            </li>
+            <li
+              key="18.2a:"
+            >
+              <strong>
+                 
+                18.2a:
+              </strong>
+               
+              3rd
+               (
+              95 reps
+              )
+            </li>
+            <li
+              key="18.3:"
+            >
+              <strong>
+                 
+                18.3:
+              </strong>
+               
+              4th
+               (
+              100 reps
+              )
+            </li>
+            <li
+              key="18.4:"
+            >
+              <strong>
+                 
+                18.4:
+              </strong>
+               
+              5th
+               (
+              15:10
+              )
+            </li>
+          </ul>
+        </inject-AccordionItemBody-with-accordionStore-uuid>
+      </inject-AccordionItem-with-accordionStore>
+    </Accordion>
+  </td>
+</tr>
+`;

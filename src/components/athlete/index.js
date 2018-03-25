@@ -58,7 +58,7 @@ class Athlete extends Component {
 
     if (width <= 768) {
       elem = (
-        <tr key={index}>
+        <tr key={index} className="Athlete--sm">
           <td>
             <Accordion accordion={false}>
               <AccordionItem>
@@ -84,7 +84,7 @@ class Athlete extends Component {
       );
     } else if (width <= 1320) {
       elem = (
-        <tr key={index}>
+        <tr key={index} className="Athlete--md">
           <td>
             <h6>
               <strong>
@@ -99,7 +99,7 @@ class Athlete extends Component {
       );
     } else {
       elem = (
-        <tr key={index}>
+        <tr key={index} className="Athlete--lg">
           <th scope="row">{attrs.overallRank}</th>
           <td>
             <strong>{attrs.competitorName}</strong>

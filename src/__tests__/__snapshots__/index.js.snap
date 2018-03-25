@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="App"
+>
+  <HelmetWrapper
+    defaultTitle="2018 Open Crossfit Leaderboard - Bahia"
+    defer={true}
+    encodeSpecialCharacters={true}
+    link={
+      Array [
+        Object {
+          "crossorigin": "anonymous",
+          "href": "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+          "integrity": "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
+          "rel": "stylesheet",
+        },
+      ]
+    }
+    meta={
+      Array [
+        Object {
+          "content": "width=device-width, initial-scale=1, shrink-to-fit=no",
+          "name": "viewport",
+        },
+        Object {
+          "content": "2018 Open Crossfit Leaderboard Bahia",
+          "name": "description",
+        },
+      ]
+    }
+  />
+  <div
+    className="container"
+  >
+    <div
+      className="py-5 text-center"
+    >
+      <img
+        alt="Open Crossfit Bahia"
+        className="d-block mx-auto mb-4"
+        src="logo.png"
+      />
+      <h2>
+        2018 Open Crossfit Leaderboard - Bahia
+      </h2>
+      <p
+        className="lead"
+      >
+        Acompanhe o leaderboard dos atletas baianos
+      </p>
+      <div
+        className="row justify-content-md-center"
+      >
+        <div
+          className="col-md-auto col-lg-4"
+        >
+          <div
+            className="btn-group"
+          >
+            <button
+              className="btn btn-primary active"
+              dataref="isMen"
+              onClick={[Function]}
+            >
+              MASCULINO
+            </button>
+            <button
+              className="btn btn-primary "
+              dataref="isWomen"
+              onClick={[Function]}
+            >
+              FEMININO
+            </button>
+          </div>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control leaderboard-search"
+              id="searchText"
+              name="searchText"
+              onChange={[Function]}
+              placeholder="Pesquise por atleta ou box"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <LeaderboardTable
+      category="isMen"
+      filterText=""
+    />
+    <footer
+      className="my-5 pt-5 text-muted text-center text-small"
+    >
+      <p
+        className="mb-1"
+      >
+        © 2018 Open Crossfit Games Leaderboard Bahia
+      </p>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <a
+            href="https://github.com/cristianossd"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Cristiano Santos
+          </a>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          <a
+            href="https://github.com/joaopcanario"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            João Paulo Canário
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</div>
+`;
